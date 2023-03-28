@@ -18,3 +18,5 @@ export class InicioComponent  implements OnInit {
     this.Firestore.createDoc
    }
 }
+
+//Hansel De Los Santos Ramirez 202010355

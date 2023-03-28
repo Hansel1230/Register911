@@ -10,7 +10,7 @@ export class FirestoreDBService {
 
   constructor(private firestore: AngularFirestore) {
   }
-  
+  //Hansel De Los Santos Ramirez 202010355
   CreateRegister(data:any,path: string,id:string){
     const collection = this.firestore.collection(path)
     return collection.doc(id).set(data);
@@ -27,7 +27,7 @@ export class FirestoreDBService {
 
       // console.log('res -> ', res);
     
-  
+  //Hansel De Los Santos Ramirez 202010355
   }
 
 

@@ -3,6 +3,7 @@ import { FirestoreDBService } from 'src/app/services/firestore-db.service';
 import { ToastController } from '@ionic/angular';
 import * as moment from 'moment';
 
+//Hansel De Los Santos Ramirez 202010355
 
 @Component({
   selector: 'app-home',

@@ -26,3 +26,5 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+
+//Hansel De Los Santos Ramirez 202010355
