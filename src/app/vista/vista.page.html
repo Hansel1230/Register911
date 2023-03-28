@@ -1,10 +1,24 @@
 <ion-header>
   <ion-toolbar>
+    <ion-title>Vista</ion-title>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Vista</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content> </ion-content>
+<ion-content>
+  <div>
+    <ion-list lines="full">
+      <ion-item button detail="false" *ngFor="let registers of register">
+        <ion-label>
+          <h3>Title:{{registers.title}}</h3>
+          <h3>Date:{{registers.date}}</h3>
+          <p>Description:{{registers.description}}</p>
+          <p>Photo:{{registers.photo}}</p>
+          <br />
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
